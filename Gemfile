@@ -9,6 +9,18 @@ gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
 
+# Ruby fast debugger
+gem "byebug"
+
+# Reduces boot times through caching; required in config/boot.rb
+gem "bootsnap", require: false
+
+# Generate fake data
+gem "faker"
+
+# Active Model serializers
+gem  "active_model_serializers"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
