@@ -15,7 +15,7 @@ gem "byebug"
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-# Generate fake data
+# Generate fake seek data
 gem "faker"
 
 # Active Model serializers
