@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :reccomendations
+  resources :categories
+  resources :sources
   resources :users
   resources :trendings
   resources :articles
